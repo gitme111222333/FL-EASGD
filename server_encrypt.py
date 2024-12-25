@@ -149,7 +149,8 @@ if __name__=="__main__":
 
     pre_parameters = None
 
-    b = 0.8
+    #更改平滑系数0.8-0.9
+    b = 0.9
     # 全局迭代轮次
     for i in range(args['num_comm']):
         print("communicate round {}".format(i+1))
